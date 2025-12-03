@@ -1,4 +1,4 @@
-# 📘 **L-GTA Extension — Adaptive Augmentation Controller (AAC)**
+# 📘 **L-GTA Extension: Adaptive Augmentation Controller (AAC)**
 
 This repository provides a clean re-implementation of **L-GTA (Latent Generative Time-series Augmentation)** along with a newly designed extension called **AAC (Adaptive Augmentation Controller)**.
 AAC introduces feature-aware latent-space policies that dynamically adjust augmentation strength and type for each time series, enabling richer and more realistic synthetic data across diverse domains.
@@ -17,8 +17,6 @@ AAC introduces feature-aware latent-space policies that dynamically adjust augme
 └── README.md
 ```
 
-All datasets must be stored inside the `datasets/` directory.
-
 ---
 
 ## 🚀 **Features**
@@ -30,7 +28,6 @@ The baseline model includes:
 * Conditional Variational Autoencoder (CVAE)
 * GRU encoder–decoder architecture
 * Latent-space perturbations:
-
   * Scaling
   * Shifting
   * Noise injection
@@ -42,7 +39,7 @@ The baseline model includes:
 
 ---
 
-### **2. AAC — Adaptive Augmentation Controller**
+### **2. AAC (Adaptive Augmentation Controller)**
 
 AAC enhances L-GTA by selecting augmentation strategies **based on statistical characteristics** of each series, making augmentation more realistic and domain-aligned.
 
@@ -174,6 +171,6 @@ Both notebooks automatically produce:
 
 If you use this work, please cite the original L-GTA paper:
 
-**Roque, Luis. *Latent Generative Modeling for Time-Series Augmentation*. 2023.**
+**Roque, L., Soares, C., Cerqueira, V. and Torgo, L., 2025. L-GTA: Latent Generative Modeling for Time Series Augmentation. arXiv preprint arXiv:2507.23615.**
 
 ---
